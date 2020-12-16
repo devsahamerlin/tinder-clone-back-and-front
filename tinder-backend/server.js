@@ -25,7 +25,6 @@ mongoose.connect('mongodb://localhost/tinder',
 
 
 
-
 // API Endpoints
 app.get("/", (req, res) => {
     res.status(200).send("Hello SWM tinder server.");
